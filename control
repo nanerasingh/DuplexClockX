@@ -1,9 +1,9 @@
-Package: com.sharedroutine.duplexclock
-Name: DuplexClock
+Package: com.gilshahar7.duplexclockx
+Name: DuplexClockX
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 1.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: sharedRoutine
-Author: sharedRoutine
+Description: Second Clock in Statusbar for different timezone. An updated version of DuplexClock by sharedRoutine for iPhone X by gilshahar7
+Maintainer: gilshahar7
+Author: gilshahar7
 Section: Tweaks

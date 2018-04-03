@@ -1,14 +1,13 @@
 export ARCHS = armv7 arm64
+include $(THEOS)/makefiles/common.mk
 
-include theos/makefiles/common.mk
-
-TWEAK_NAME = DuplexClock
-DuplexClock_FILES = Tweak.xm
-DuplexClock_CFLAGS = -fobjc-arc
+TWEAK_NAME = DuplexClockX
+DuplexClockX_FILES = Tweak.xm
+DuplexClockX_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
 	install.exec "killall -9 SpringBoard"
-SUBPROJECTS += duplexclocksettings
+SUBPROJECTS += duplexclockxprefs
 include $(THEOS_MAKE_PATH)/aggregate.mk
